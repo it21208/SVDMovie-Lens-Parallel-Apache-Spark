@@ -1,0 +1,30 @@
+    CONVERT THE SVDMOVIELENS JAVA PROGRAM IN ORDER TO TAKE
+    ADVANTAGE OF APACHE SPARK'S PARALLEL STRUCTURES
+
+15/3/2016
+---------
+
+1) From the "Overview" it is clear that in Spark there are 2 main abstractions
+   that provide out of the box parallel operations:
+
+   - RDDs (Resilient Distributed Datasets)
+   - Shared Variables
+        - Broadcast variables: cache a value in memory on all nodes
+        - Accumulators: variables that are only “added” to, such as counters and sums
+
+2) From the "Linking with Spark" it is clear that we need to add a dependency on Spark,
+   which is already included in the pom.xml and import some Spark classes into the program.
+
+3) From the "Initializing Spark" we understand that in our program must initially create a
+   JavaSparkContext object.
+   At this point I realize that it is a good idea to initially disable most of the SVD algorithm
+   logic at the main() function and gradually enable each algorithm step as soon as the 
+   conversion to Spark data structures and functions has been completed.
+   a) The first step is to evaluate the mappings of existing data structures (data members) 
+      used to Spark abstractions (RDDs, shared variables) in order to support out of
+      the box parallelization
+   b) The second step is to add a SparkConf and a JavaSparkContext object as data 
+      members of the main class SVDMovieLensSparkJava.
+   c) The third step is to create a SparkConf and a JavaSparkContext object in the 
+      SVDMovieLensSparkJava() constructor along any other initialization necessary.
+
