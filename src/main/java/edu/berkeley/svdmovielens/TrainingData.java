@@ -7,7 +7,7 @@ package edu.berkeley.svdmovielens;
 
 /**
  *
- * @author tioannid
+ * @author Alexandros Ioannidis
  */
 public class TrainingData extends SparkData {
 
