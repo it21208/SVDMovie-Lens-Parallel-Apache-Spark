@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author tioannid
+ * @author Alexandros Ioannidis
  */
 public class MatrixRow implements Serializable {
 
