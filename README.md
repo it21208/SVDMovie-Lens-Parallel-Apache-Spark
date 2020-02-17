@@ -1,6 +1,6 @@
 # SVDMovie-Lens-Parallel-Apache-Spark
 - For more information about the SVD algorithm please visit the following page
-> tps://en.wikipedia.org/wiki/Singular_value_decomposition
+> https://en.wikipedia.org/wiki/Singular_value_decomposition
 
 - For more information about the original sequential algorithm written in C visit the following page 
 > https://www.timelydevelopment.com/demos/NetflixPrize.html
