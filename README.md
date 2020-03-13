@@ -2,6 +2,8 @@
 - For more information about the SVD algorithm and Apache Spark please visit the following page
 > https://en.wikipedia.org/wiki/Singular_value_decomposition
 
+> My proposed parallelised SVD Spark implementation https://en.wikipedia.org/wiki/Singular_value_decomposition#Other examples
+
 > https://spark.apache.org/
 
 - For more information about the original sequential algorithm written in C visit the following page 
