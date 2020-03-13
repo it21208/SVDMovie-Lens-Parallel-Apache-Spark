@@ -2,7 +2,7 @@
 - For more information about the SVD algorithm and Apache Spark please visit the following page
 > https://en.wikipedia.org/wiki/Singular_value_decomposition
 
-> My proposed parallelised SVD Spark implementation https://en.wikipedia.org/wiki/Singular_value_decomposition#Other examples
+> My proposed parallelised SVD Spark implementation https://en.wikipedia.org/wiki/Singular_value_decomposition#Other_examples
 
 > https://spark.apache.org/
 
