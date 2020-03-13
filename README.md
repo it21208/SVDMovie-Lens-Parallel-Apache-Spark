@@ -1,6 +1,6 @@
 # SVDMovie-Lens-Parallel-Apache-Spark
 
-- For more information about the SVD algorithm and Apache Spark please visit the following page:
+- 𝐨𝐫 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐭𝐡𝐞 𝐒𝐕𝐃 𝐚𝐥𝐠𝐨𝐫𝐢𝐭𝐡𝐦 𝐚𝐧𝐝 𝐀𝐩𝐚𝐜𝐡𝐞 𝐒𝐩𝐚𝐫𝐤 𝐩𝐥𝐞𝐚𝐬𝐞 𝐯𝐢𝐬𝐢𝐭 𝐭𝐡𝐞 𝐟𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠 𝐩𝐚𝐠𝐞:
 
 > https://en.wikipedia.org/wiki/Singular_value_decomposition
 
